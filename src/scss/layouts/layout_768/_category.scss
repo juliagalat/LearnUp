@@ -1,0 +1,12 @@
+.category {
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @include e(pop) {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+  @include e(hot) {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+}

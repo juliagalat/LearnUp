@@ -1,0 +1,11 @@
+.info {
+  display: flex;
+  @include e(title) {
+    padding-top: 40px;
+  }
+  @include e(content) {
+    @include m(2) {
+      padding-bottom: 40px;
+    }
+  }
+}

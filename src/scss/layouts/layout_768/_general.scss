@@ -1,0 +1,10 @@
+.container {
+  max-width: 992px;
+  @include m(info) {
+    flex: 56%;
+    margin-right: 40px;
+  }
+  @include m(img) {
+    flex: 42%;
+  }
+}

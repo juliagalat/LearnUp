@@ -1,0 +1,14 @@
+.modal {
+  @include e(social) {
+    @include m(fb) {
+      &::before {
+        left: 25%;
+      }
+    }
+    @include m(google) {
+      &::before {
+        left: 27%;
+      }
+    }
+  }
+}

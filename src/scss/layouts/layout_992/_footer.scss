@@ -1,0 +1,26 @@
+.container_footer {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 40px;
+}
+.footer {
+  @include e(menu) {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  @include e(address) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  @include e(apps) {
+    flex-direction: column;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    p {
+      display: float;
+    }
+  }
+}

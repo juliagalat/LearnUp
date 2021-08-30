@@ -1,0 +1,9 @@
+.join {
+  @include e(form) {
+    padding: 20px 20px 18px;
+
+    @include m(submit) {
+      padding: 14px 25px 14px;
+    }
+  }
+}

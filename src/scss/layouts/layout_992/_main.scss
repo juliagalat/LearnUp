@@ -1,0 +1,9 @@
+.banner {
+  padding-bottom: 200px;
+  @include e(title) {
+    max-width: 40%;
+  }
+  @include e(content) {
+    max-width: 40%;
+  }
+}

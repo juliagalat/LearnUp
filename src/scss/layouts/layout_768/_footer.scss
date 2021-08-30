@@ -1,0 +1,37 @@
+.container_footer {
+  display: grid;
+  margin: 0 40px;
+  margin: auto;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 30px;
+}
+.footer {
+  @include e(menu) {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    ul {
+      margin-top: 0;
+    }
+  }
+  img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  @include e(address) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  @include e(apps) {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    p {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

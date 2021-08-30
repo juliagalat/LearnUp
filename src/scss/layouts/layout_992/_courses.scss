@@ -1,0 +1,25 @@
+.courses {
+  @include e(menu) {
+    grid-template-columns: 1.8fr 1fr 1fr minmax(100px, 150px);
+    @include m(img) {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      grid-row: 1 / span 5;
+    }
+  }
+  @include e(hot) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  @include e(featured) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
+.container__courses {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}

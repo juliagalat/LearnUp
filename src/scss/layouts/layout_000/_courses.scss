@@ -1,0 +1,130 @@
+.courses {
+  padding-top: 80px;
+  background: #fbf5f4;
+  padding-bottom: 40px;
+  @include e(hot) {
+    font-family: $fontFamily;
+    font-size: 15px;
+    color: #647b9c;
+    text-align: center;
+    font-weight: 400;
+  }
+  @include e(featured) {
+    font-family: $fontFamily;
+    font-size: 30px;
+    color: #2d3954;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0;
+  }
+
+  @include e(menu) {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 20px;
+    border: 1px solid #e8ebf1;
+    background: #fff;
+    border-radius: 0.4rem;
+    margin-bottom: 30px;
+    padding: 1rem;
+    @include m(img) {
+      width: 100%;
+      max-width: 100%;
+      grid-column: 1 / span 3;
+      grid-row: 1;
+      padding-bottom: 20px;
+    }
+    @include m(title) {
+      color: #2d3954;
+      font-size: 17px;
+      font-weight: 600;
+      grid-column: 2 / span 2;
+      grid-row: 2;
+      padding-bottom: 5px;
+    }
+    @include m(author) {
+      grid-column: 2 / span 2;
+      grid-row: 3;
+      font-size: 13px;
+      color: #333c56;
+
+      padding-bottom: 15px;
+    }
+    @include m(lesson) {
+      grid-column: 2;
+
+      grid-row: 4;
+      font-size: 14px;
+      font-weight: 400;
+      padding-bottom: 15px;
+      @include m(svg) {
+        max-width: 14px;
+        margin-right: 5px;
+      }
+    }
+    @include m(type) {
+      position: relative;
+      padding-left: 12px;
+      grid-column: 3;
+      grid-row: 4;
+      font-size: 14px;
+      color: $colorClasses;
+      font-weight: 400;
+    }
+    @include m(rating) {
+      grid-column: 2;
+      grid-row: 5;
+      color: $orange;
+      font-size: 16px;
+      font-weight: bolder;
+
+      @include m(star) {
+        max-width: 10px;
+      }
+    }
+    @include m(category) {
+      grid-column: 3;
+      grid-row: 5;
+      font-size: 14px;
+      padding: 5px 0;
+
+      text-align: center;
+
+      border-radius: 50px;
+    }
+    @include m(price) {
+      padding-top: 20px;
+      grid-column: 2;
+      grid-row: 6;
+      font-size: 20px;
+      color: #203675;
+      font-weight: 700;
+      @include m(mini) {
+        font-size: 13px;
+        opacity: 0.5;
+        text-decoration: line-through;
+        margin-bottom: 5px;
+      }
+    }
+    @include m(arrow) {
+      grid-column: 3;
+      grid-row: 6;
+      width: 35px;
+      height: 35px;
+      background: $pink;
+      border-radius: 50%;
+      justify-self: end;
+      align-self: end;
+      color: white;
+      position: relative;
+
+      @include m(white) {
+        width: 15px;
+        text-align: center;
+        position: absolute;
+        top: 9px;
+        left: 9px;
+      }
+    }
+  }
+}

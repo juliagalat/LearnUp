@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Learn UP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="scss/style.scss" />
+    <link rel="stylesheet" href="scss/slick.css" />
+    
+  </head>
+
+  <body>
+    <div class="fliud-container">
+      <header class="navbar">
+        <div class="container container_navbar">
+          <a href="index.html" class="logo">
+            <img src="i/logo.png" alt="Learn Up"
+          /></a>
+
+          <!--   DESKTOP menu START   -->
+          <nav class="menu">
+            <ul class="menu-desktop">
+              <li class="has-submenu">
+                <a class="menu_home" href="#">Home</a>
+                <ul>
+                  <li><a href="#">Home1</a></li>
+                  <li><a href="#">Home2</a></li>
+                  <li><a href="#">Home3</a></li>
+                  <li><a href="#">Home4</a></li>
+                  <li><a href="#">Home5</a></li>
+                  <li><a href="#">Home6</a></li>
+                </ul>
+              </li>
+              <li class="has-submenu">
+                <a href="#">Courses</a>
+                <ul>
+                  <li class="has-submenu">
+                    <a href="#">Courses Grid Sidebar</a>
+                    <ul>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">List Layout with Sidebar</a>
+                  </li>
+                  <li class="has-submenu">
+                    <a href="#">Courses Grid Full Width</a>
+                    <ul>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu">
+                    <a href="#">Courses Detail</a>
+                    <ul>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Find Instructor</a>
+                  </li>
+                  <li>
+                    <a href="#">Instructor Detail</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-submenu">
+                <a href="#">Pages</a>
+                <ul>
+                  <li><a href="#">User Dashboard</a></li>
+                  <li><a href="#">Shop Pages</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog Style</a></li>
+                  <li><a href="#">Prising</a></li>
+                  <li><a href="#">Elements</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contacts</a></li>
+              </ul>
+
+              <div class="sign">
+                <a class="sign__in" href="#">Log in</a>
+                <a class="sign__up" href="#">Sign up</a></li>
+             	<!-- Log In Modal dekstop-->
+			<div  class="modal modal-log hide">					
+        <div class="modal__body">
+							<h4 class="modal__title">Log In</h4>
+              <span class="modal__close"></span>
+							<form class="modal__form">	              
+								<input type="text" class="modal__form_group" placeholder="User Name" required>							
+								<input type="password" class="modal__form_group" placeholder="*******" required>
+							<button type="submit" class="modal__btn">Login</button>
+				      </form>												
+							<div class="modal__pass">								
+							<label for="reg" class="modal__pass_label">Save Password 		<input id="reg" class="modal__pass_checkbox" name="reg" type="checkbox"></label>
+							<a href="#" class="modal__pass_forget pink">Forget Password?</a></li>							
+							</div>
+							
+							<div class="modal__divider">Or login via</div>
+							<div class="modal__social">						
+                <a href="#" class="modal__social_fb">Facebook</a>
+                <a href="#" class="modal__social_google">Google</a>						
+            </div>							
+								<p class="modal__bottom">Haven't Any Account? <a href="#" class="pink">Click here</a></p>
+							</div>
+              </div>
+				
+
+			<!-- End Modal -->
+			
+			<!-- Sign Up Modal -->
+			<div  class="modal modal-sign hide">	
+        <div class="modal__body">
+        <span class="modal__close"></span>
+           <h4 class="modal__title">Sign Up</h4>
+          <form class="modal__form">				    
+          <input type="text" class="modal__form_group" placeholder="Full name" required>
+          <input type="email" class="modal__form_group" placeholder="Email" required>
+          <input type="text" class="modal__form_group" placeholder="Username" required>
+           <input type="password" class="modal__form_group" placeholder="*******" required>
+          <button type="submit" class="modal__btn">Login</button>
+          </form>        
+          
+          <div class="modal__pass">							
+          <label for="reg" class="modal__pass_label">Save Password 		<input id="reg" class="modal__pass_checkbox" name="reg" type="checkbox"></label>
+          <a href="#" class="modal__pass_forget pink">Forget Password?</a></li>
+          </div>          
+      <div class="modal__divider">Or login via</div>
+      <div class="modal__social">						
+        <a href="#" class="modal__social_fb">Facebook</a>
+        <a href="#" class="modal__social_google">Google</a>						
+    </div>	    
+            <p class="modal__bottom">Haven't Any Account? <a href="#" class="pink">Click here</a></p>
+          </div>
+      
+			<!-- End Modal -->
+            </div>
+         </div>
+          </nav>
+         
+
+          <a href="#" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <!--   DESKTOP menu END   -->
+      </header>
+      <div class="container">
+        <!--   Mobile menu START   -->
+        <div class="dark-overlay"></div>
+
+        <div class="mobile-menu">
+          <a href="#" class="menu-button in-mobile active">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+
+          <nav class="mobile-navigation">
+            <ul>
+              <li class="has-submenu">
+                <a class="is-submenu menu_home" href="#">Home</a>
+                <ul>
+                  <li><a href="#">Home1</a></li>
+                  <li><a href="#">Home2</a></li>
+                  <li><a href="#">Home3</a></li>
+                  <li><a href="#">Home4</a></li>
+                  <li><a href="#">Home5</a></li>
+                  <li><a href="#">Home6</a></li>
+                </ul>
+              </li>
+              <li class="has-submenu">
+                <a class="is-submenu" href="#">Courses</a>
+                <ul>
+                  <li class="has-submenu">
+                    <a class="is-submenu" href="#">Courses Grid Sidebar</a>
+                    <ul>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">List Layout with Sidebar</a>
+                  </li>
+                  <li class="has-submenu">
+                    <a class="is-submenu" href="#">Courses Grid Full Width</a>
+                    <ul>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                      <li><a href="#">Courses Grid</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu">
+                    <a class="is-submenu" href="#">Courses Detail</a>
+                    <ul>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                      <li><a href="#">Courses Detail 1</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Find Instructor</a>
+                  </li>
+                  <li>
+                    <a href="#">Instructor Detail</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="has-submenu">
+                <a class="is-submenu" href="#">Pages</a>
+                <ul>
+                  <li><a href="#">User Dashboard</a></li>
+                  <li><a href="#">Shop Pages</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog Style</a></li>
+                  <li><a href="#">Prising</a></li>
+                  <li><a href="#">Elements</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contacts</a></li>
+
+              
+            </ul>
+         
+          </nav>
+          <div class="sign">
+              <a class="sign__in" href="#">Log in</a>
+              <a class="sign__up" href="#">Sign up</a></li>
+              	<!-- Log In Modal -->
+			<div class="modal modal-log hide">					
+        <div class="modal__body">
+							<h4 class="modal__title">Log In</h4>
+             
+              <span class="modal__close"></span>
+              <form class="modal__form">	              
+								<input type="text" class="modal__form_group" placeholder="User Name" required>							
+								<input type="password" class="modal__form_group" placeholder="*******" required>
+							<button type="submit" class="modal__btn">Login</button>
+				      </form>						
+							<div class="modal__pass">							
+							<label for="reg" class="modal__pass_label">Save Password 		<input id="reg" class="modal__pass_checkbox" name="reg" type="checkbox"></label>
+							<a href="#" class="modal__pass_forget pink">Forget Password?</a></li>
+							</div>
+							
+							<div class="modal__divider">Or login via</div>
+							<div class="modal__social">						
+									<a href="#" class="modal__social_fb">Facebook</a>
+									<a href="#" class="modal__social_google">Google</a>						
+							</div>													
+								<p class="modal__bottom">Haven't Any Account? <a href="#" class="pink">Click here</a></p>
+							</div>
+              </div>
+				
+
+			<!-- End Modal -->
+			
+			<!-- Sign Up Modal -->
+			<div  class="modal hide modal-sign">	
+        <div class="modal__body">
+        <span class="modal__close"></span>
+           <h4 class="modal__title">Sign Up</h4>
+          <form class="modal__form">				    
+          <input type="text" class="modal__form_group" placeholder="Full name" required>
+          <input type="email" class="modal__form_group" placeholder="Email" required>
+          <input type="text" class="modal__form_group" placeholder="Username" required>
+           <input type="password" class="modal__form_group" placeholder="*******" required>
+          <button type="submit" class="modal__btn">Login</button>
+          </form>         
+          
+          <div class="modal__pass">												
+          <label for="reg" class="modal__pass_label">Save Password 		<input id="reg" class="modal__pass_checkbox" name="reg" type="checkbox"></label>
+          <a href="#" class="modal__pass_forget pink">Forget Password?</a></li>
+          </div>
+          
+      <div class="modal__divider">Or login via</div>
+      <div class="modal__social">    
+          <a href="#" class="modal__social_fb">Facebook</a>
+          <a href="#" class="modal__social_google">Google</a>
+      </div>
+                
+            <p class="modal__bottom">Haven't Any Account? <a href="#" class="pink">Click here</a></p>
+          </div>
+      
+			<!-- End Modal -->
+        </div>
+        </div>
+      </div>
+      <!-- /   Mobile menu END  -->
+</div>
+      <main class="banner">
+        <div class="container">
+          <h1 class="banner__title">
+            Commit To Your creativity For <span class="pink">30 Days</span>
+          </h1>
+          <p class="banner__content">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam.
+          </p>
+        </div>
+      </main>
+      <div class="container">
+        <div id="slider" class="slider">
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-1.png " />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-2.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-3.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-4.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-5.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-6.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-7.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-8.png" />
+          </div>
+          <div class="slider-item">
+            <img class="img-fluid" src="i/lg-9.png" />
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------CATEGORY---------------------- -->
+      <div class="category container">
+      
+          <p class="category__pop">Popular category</p>
+          <h2 class="category__hot"><span class="pink">Hot & Popular</span> Category For Learn </h2>
+          <div class="category__menu aqua">
+            <div class="category__menu_img">              
+              <div class="category__menu_img_white">
+                <img class="category__menu_img_white_png" src="i/content.png " alt=""></div>
+            </div>
+            <a class="category__menu_name" href="#">Development</a>
+            <div class="category__menu_classes">23 classes</div>       
+          </div>
+         <div class="category__menu yellow">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/briefcase.png " alt=""></div>
+          </div>
+            <a class="category__menu_name"  href="#">Business</a>
+            <div class="category__menu_classes">58 classes</div>       
+         </div>
+         <div class="category__menu rose">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/career.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">Accounting</a>
+          <div class="category__menu_classes">74 classes</div>       
+         </div>
+         <div class="category__menu salat">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/python.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">IT & Software</a>
+          <div class="category__menu_classes">65 classes</div>       
+         </div>
+         <div class="category__menu blue">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/designer.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">Art & Design</a>
+          <div class="category__menu_classes">43 classes</div>       
+         </div>
+         <div class="category__menu purple">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/speaker.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name ">Marketing</a>
+          <div class="category__menu_classes">82 classes</div>       
+         </div>
+         <div class="category__menu lightrose ">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/photo.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">Photography</a>
+          <div class="category__menu_classes">25 classes</div>       
+         </div>
+         <div class="category__menu green">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/yoga.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">Health & Fitness</a>
+          <div class="category__menu_classes">43 classes</div>       
+         </div>
+         <div class="category__menu orange">
+          <div class="category__menu_img">              
+            <div class="category__menu_img_white">
+              <img class="category__menu_img_white_png" src="i/health.png " alt=""></div>
+          </div>
+          <a  href="#" class="category__menu_name">Lifestyle</a>
+          <div class="category__menu_classes">38 classes</div>       
+         </div>       
+        </div>
+        <!-- -----------------COURSES---------------------- -->
+        <div class="courses">
+          <div class="container container__courses">
+            <div class="courses__hot">Hot & Trending</div>
+            <h2 class="courses__featured"><span class="pink">Featured</span> Courses Of The Month</h2>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-2.jpg"></img>
+              <div class="courses__menu_title">Learn Full Photoshop Courses CS6</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">11 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.9</div>
+              <div class="courses__menu_category blue">Banking</div>
+              <div class="courses__menu_price">$749 <span class="courses__menu_price_mini">$999</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-3.jpg"></img>
+              <div class="courses__menu_title">Wull Web Designing Course</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">13 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.6</div>
+              <div class="courses__menu_category orange">Accounting</div>
+              <div class="courses__menu_price">$510 <span class="courses__menu_price_mini">$799</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-4.jpg"></img>
+              <div class="courses__menu_title">Adobe Dreamwear Flash Coded</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">10 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.7</div>
+              <div class="courses__menu_category lightrose">Business</div>
+              <div class="courses__menu_price">$549 <span class="courses__menu_price_mini">$1049</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-5.jpg"></img>
+              <div class="courses__menu_title">Learn Full Photoshop Courses CS6</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">16 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.9</div>
+              <div class="courses__menu_category green">Instructor</div>
+              <div class="courses__menu_price">$749 <span class="courses__menu_price_mini">$999</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-6.jpg"></img>
+              <div class="courses__menu_title">Business Analysis Full Courses</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">10 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.8</div>
+              <div class="courses__menu_category purple">Animation</div>
+              <div class="courses__menu_price">$599 <span class="courses__menu_price_mini">699</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+            <div class="courses__menu">
+              <img class="courses__menu_img" src="i/co-7.jpg"></img>
+              <div class="courses__menu_title">Learn To Create WP Theme</div>
+              <div class="courses__menu_author"><span class="color-classes">By: </span><strong>Andrew S. Thomas</strong></div>
+              <div class="courses__menu_lesson"><span class="pink"><img class="courses__menu_lesson_svg"src="i/desktop.svg">12 Lessons</div>
+              <div class="courses__menu_type"><span class="green-online"></span>Online Class</div>
+              <div class="courses__menu_rating">
+                <img class="courses__menu_rating_star" src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star2.svg">
+                <img class="courses__menu_rating_star"  src="i/star3.svg">
+                4.9</div>
+              <div class="courses__menu_category rose">Design</div>
+              <div class="courses__menu_price">$749 <span class="courses__menu_price_mini">$999</span></div>
+              <a href="#" class="courses__menu_arrow">
+                <svg  class="courses__menu_arrow_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></a>
+            </div>
+          </div>
+        </div>
+<!-- -----------------------info------------------------ -->
+        <div class="info container" >
+          <div class="container_info">
+          <h2 class="info__title">Known About <span class="pink">E-Learn</span> Learning Platform</h2>
+          <div class="info__content info__content_1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et voluptatem.</div>
+          <div class="info__content info__content_2">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut</div>
+          <div class="info__courses">
+            <div class="info__courses__facts"> 
+            <div class="info__courses__facts_one pink">7m</div>
+            <div class="info__courses__facts_second">Active Courses</div>
+          </div>   
+          <div class="info__courses__facts"> 
+            <div class="info__courses__facts_one pink">77k</div>
+            <div class="info__courses__facts_second">Student Learning</div>
+          </div>  
+          <div class="info__courses__facts"> 
+            <div class="info__courses__facts_one pink">84+</div>
+            <div class="info__courses__facts_second">Free Courses</div>
+          </div>  
+          </div>
+          <a href="#" class="info__btn rose">Know More
+           
+              <span class="info__btn_span">
+                <svg  class="info__btn_span_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></span>
+            
+          
+          </a>
+        </div>
+        <div class="container_img">
+          <img src="i/edu_2.png"class="info__img">
+        </div>
+        </div>
+<!-- -----------------------instructors------------------------ -->
+        <div class="instructors container">
+          <div class="instructors__meet">Meet Instructors</div>
+          <h2 class="instructors__top "><span class="pink">Top & Famous </span>Instructor In Your City</h2>
+          <div class="instructors__slider multiple-items">
+            <div class="instructors__slider_wrap">
+              <img src="i/user-1.jpg" class="instructors__slider_wrap_img"></img>
+              <h4 class="instructors__slider_wrap_name">Adam Wilson</h4>
+              <div class="instructors__slider_wrap_profession">Web Designer</div>
+            </div>
+
+          
+        
+            <div class="instructors__slider_wrap">
+              <img src="i/user-2.jpg" class="instructors__slider_wrap_img"></img>
+              <h4 class="instructors__slider_wrap_name">Anna Grey</h4>
+              <div class="instructors__slider_wrap_profession">Team Manager</div>
+            </div>
+
+        
+         
+            <div class="instructors__slider_wrap ">
+              <img src="i/user-3.jpg" class="instructors__slider_wrap_img"></img>
+              <h4 class="instructors__slider_wrap_name">Daniel Smith</h4>
+              <div class="instructors__slider_wrap_profession">Bisiness Executing</div>
+                  </div>
+
+        
+            <div class="instructors__slider_wrap">
+              <img src="i/user-4.jpg" class="instructors__slider_wrap_img"></img>
+              <h4 class="instructors__slider_wrap_name">Sophie Adams</h4>
+              <div class="instructors__slider_wrap_profession">HR Manager</div>
+            </div>
+
+      
+    
+            <div class="instructors__slider_wrap">
+              <img src="i/user-5.jpg" class="instructors__slider_wrap_img"></img>
+              <h4 class="instructors__slider_wrap_name">Ben Kraud</h4>
+              <div class="instructors__slider_wrap_profession">Sales Manager</div>
+       
+          </div>
+          </div>
+         
+        </div>
+
+
+        <!-- --------------------------------articles------------------- -->
+        <div class="articles">
+          <div class="container">
+            <div class="articles__our">Our Story</div>
+            <div class="articles__recent"><span class="pink">Recent</span> Articles To You</div>
+            <div class="articles__button">
+              <button class="articles__button_item pink" data-filter="articles__box__item">All</button>
+              <button class="articles__button_item aqua" data-filter="development">Development</button>
+              <button class="articles__button_item purple" data-filter="marketing">Marketing</button>
+              <button class="articles__button_item orange" data-filter="lifestyle">Lifestyle</button>
+              <button class="articles__button_item yellow" data-filter="business">Business</button>
+              <button class="articles__button_item rose" data-filter="accounting">Accounting</button>
+              <button class="articles__button_item green" data-filter="health">Health</button>
+                           
+            </div>
+            <div class="articles__box">
+   
+           <article class="articles__box__item business  marketing">
+                  <a href="#">
+                    <figure>
+                      <img class="articles__box__item_img" src="i/b-1.jpg" />
+                      <figcaption>
+                        <h2>The National Minimum Wage Is An Important Part</h2>
+                        <img src="i/user-1.jpg">
+                        <p>Adam Willsone</p>
+                      </figcaption>
+                    </figure>
+                  </a>
+          </article>
+          <article class="articles__box__item  health lifestyle ">
+            <a href="#">
+              <figure>
+                <img class="articles__box__item_img" src="i/b-2.jpg" />
+                <figcaption>
+                  <h2>The National Minimum Wage Is An Important Part</h2>
+                  <img src="i/user-2.jpg">
+                  <p>Rikki Sen</p>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+
+          <article class="articles__box__item  marketing accounting ">
+            <a href="#">
+              <figure>
+                <img class="articles__box__item_img" src="i/b-3.jpg" />
+                <figcaption>
+                  <h2>The National Minimum Wage Is An Important Part</h2>
+                  <img src="i/user-3.jpg">
+                  <p>Daniel Wikjones</p>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+
+          <article class="articles__box__item development lifestyle ">
+            <a href="#">
+              <figure>
+                <img class="articles__box__item_img" src="i/co-6.jpg" />
+                <figcaption>
+                  <h2>The National Minimum Wage Is An Important Part</h2>
+                  <img src="i/user-4.jpg">
+                  <p>Anna Grey</p>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+
+          <article class="articles__box__item development accounting ">
+            <a href="#">
+              <figure>
+                <img class="articles__box__item_img" src="i/co-5.jpg" />
+                <figcaption>
+                  <h2>The National Minimum Wage Is An Important Part</h2>
+                  <img src="i/user-5.jpg">
+                  <p>Ben Kraud</p>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+
+          <article class="articles__box__item health  business">
+            <a href="#">
+              <figure>
+                <img class="articles__box__item_img" src="i/co-7.jpg" />
+                <figcaption>
+                  <h2>The National Minimum Wage Is An Important Part</h2>
+                  <img src="i/user-3.jpg">
+                  <p>Adam Wilson</p>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+              </div>
+            </div>
+          </div>
+      
+
+        <!-- ------------------------join--------------- -->
+        <div class="join">
+          <div class="container">
+            <h2 class="join__title">Join Thousand of Happy Students!</h2>
+            <p class="join__subscribe">Subscribe our newsletter & get latest news and updation!</p>
+            <form class="join__form">
+              <input type="email" class="join__form_email" placeholder="Your Email Address" required>
+              <input type="submit" class="join__form_submit" value="Get Started" >
+             
+            </form>
+          </div>
+        </div>
+        <!-- -----------------------footer----------------- -->
+        <footer class="footer">
+          <div class="container_footer container ">
+            <img src="i/logo-light.png" alt="#" >
+          <div class="footer__address">
+            <p>4967  Sardis Sta, Victoria 8007, Montreal.</p>
+            <p>+1 246-345-0695</p>
+            <p>info@learnup.com</p>
+          </div>
+        <div class="footer__menu">
+          <ul class="footer__menu_nav">Navigations 
+              <li><a href="#">About us</a></li>
+              <li><a href="#">FAQs Page</a></li>
+              <li><a href="#">Checkout></a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="footer__menu_nav">New Categories 
+            <li><a href="#">Designing</a></li>
+            <li><a href="#">Nisiness</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">WordPress</a></li>
+            <li><a href="#">PHP</a></li>            
+        </ul>
+        <ul class="footer__menu_nav">Help & Support 
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">LiveChat</a></li>
+          <li><a href="#">Mail Us</a></li>
+          <li><a href="#">Privasy</a></li>
+          <li><a href="#">Faqs</a></li>            
+      </ul>
+
+        </div>
+          <div class="footer__apps"> 
+            <p>Download Apps</p>
+          <div class="footer__apps__store ">
+            <svg class="footer__apps__store_svg pink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 
+              16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 
+              60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+              <div class="footer__apps__store_title">Google Play</div>
+              <div class="footer__apps__store_content">Get it now</div>
+            </div>
+            <div class="footer__apps__store">
+              <svg  class="footer__apps__store_svg pink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 
+                20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 
+                59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5
+                 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52
+                  16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                <div class="footer__apps__store_title">App Store</div>
+                <div class="footer__apps__store_content">Now it Availible</div>
+              </div>
+            
+          </div>
+          </div>
+          
+    
+
+        </footer>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="footer-bottom__designed">© 2021 LearnUp. Designd By Themezhub</div>
+            <div class="footer-bottom__social">
+              <a class="footer-bottom__social_fb" href="#"></a>
+              <a class="footer-bottom__social_tw" href="#"></a>
+              <a class="footer-bottom__social_inst" href="#"></a>
+              <a class="footer-bottom__social_link" href="#"></a>  
+          
+       </div>
+          </div>
+        </div>
+        
+		
+			
+		
+    </div>		
+		
+    
+    
+    <!-- ----------------------SCRIPT----------------------------- -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/ssm.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      const sliderSocial = $(".slider");
+  sliderSocial.slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 300,
+
+  slidesToShow: 5,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+
+$(".multiple-items").slick({
+  dots: true,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 300,
+
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    
+   
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+     
+      
+      },
+    },
+    {
+      breakpoint: 765,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        
+      },
+    },
+    {
+      breakpoint: 440,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    
+      },
+    },
+  ],
+});
+
+
+    </script> 
+  
+  </body>
+</html>

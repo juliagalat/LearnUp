@@ -1,0 +1,51 @@
+.pink {
+  color: $pink;
+}
+.green-online {
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: 3px;
+  width: 9px;
+  height: 9px;
+  background: #4caf50;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #a3dea5;
+}
+
+.aqua {
+  background-color: rgba(0, 173, 182, 0.1);
+  color: #00adb6;
+}
+.yellow {
+  background-color: rgba(247, 179, 32, 0.1);
+  color: #f7b320;
+}
+.rose {
+  color: #f10750;
+  background-color: rgba(241, 7, 80, 0.1);
+}
+.salat {
+  background-color: rgba(154, 222, 69, 0.1);
+  color: #9ade45;
+}
+.blue {
+  color: #0dd6ea;
+  background-color: rgba(13, 214, 234, 0.1);
+}
+.purple {
+  background-color: rgba(185, 95, 253, 0.1);
+  color: #b95ffd;
+}
+.lightrose {
+  color: #ec5098;
+  background-color: rgba(236, 80, 152, 0.1);
+}
+.green {
+  background-color: rgba(37, 165, 95, 0.1);
+  color: #25a55f;
+}
+.orange {
+  color: #ea690d;
+  background-color: rgba(234, 105, 13, 0.1);
+}

@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $headerFontFamily;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: transparent;
+
+  margin: 0;
+}
+.slick-dots li {
+  margin-right: 16px;
+}
+.slick-dots li:last-of-type {
+  margin-right: 0;
+}
+.slick-dots button {
+  border-color: transparent;
+  padding: 0;
+  width: 20px;
+  max-height: 1px;
+  opacity: 0.5;
+  background: #23b39f;
+  border-radius: 50px;
+  color: transparent;
+}
+.slick-dots .slick-active button {
+  background-color: $pink;
+  opacity: 1;
+}

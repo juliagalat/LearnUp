@@ -1,0 +1,46 @@
+.courses {
+  @include e(menu) {
+    grid-template-columns: 1.8fr 1fr 1fr minmax(100px, 150px);
+    grid-column-gap: 20px;
+
+    @include m(img) {
+      object-fit: cover;
+      padding: 0;
+      grid-column: 1;
+      grid-row: 1 / span 6;
+    }
+    @include m(title) {
+      grid-column: 2 / span 4;
+      grid-row: 1;
+    }
+    @include m(author) {
+      grid-column: 2 / span 4;
+      grid-row: 2;
+    }
+    @include m(lesson) {
+      grid-column: 2;
+      grid-row: 3;
+    }
+    @include m(type) {
+      grid-column: 3;
+      grid-row: 3;
+    }
+    @include m(rating) {
+      grid-column: 2;
+      grid-row: 4;
+    }
+    @include m(category) {
+      grid-column: 4;
+      grid-row: 4;
+      padding: 10px 0;
+    }
+    @include m(price) {
+      grid-column: 2;
+      grid-row: 5;
+    }
+    @include m(arrow) {
+      grid-column: 4;
+      grid-row: 5;
+    }
+  }
+}

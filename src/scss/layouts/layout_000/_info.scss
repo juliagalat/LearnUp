@@ -1,0 +1,68 @@
+.info {
+  @include e(title) {
+    font-family: $fontFamily;
+    color: #2d3954;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  @include e(content) {
+    color: $colorClasses;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 32px;
+  }
+  @include e(courses) {
+    display: flex;
+
+    @include e(facts) {
+      flex: 0 0 32%;
+      @include m(one) {
+        font-size: 40px;
+        font-weight: 700;
+      }
+      @include m(second) {
+        font-size: 15px;
+        font-weight: 400;
+        color: $colorClasses;
+        padding-bottom: 30px;
+      }
+    }
+  }
+  @include e(btn) {
+    width: max-content;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+
+    @include m(span) {
+      display: inline-block;
+      margin-left: 10px;
+      width: 45px;
+      height: 40px;
+      bottom: -13px;
+      position: relative;
+      background: #da0b4e;
+      border-radius: 4px;
+      color: #fff;
+
+      z-index: 10;
+      @include m(white) {
+        width: 15px;
+        text-align: center;
+        position: absolute;
+        top: 12px;
+        left: 15px;
+      }
+    }
+  }
+  @include e(img) {
+    width: 100%;
+    max-width: 100%;
+  }
+}

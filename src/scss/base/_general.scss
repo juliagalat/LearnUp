@@ -1,0 +1,10 @@
+@mixin btn($color: $blueColor, $bkgColor: $blueBkg) {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: $color;
+
+  background-color: $bkgbtn;
+  border-radius: 100px;
+}

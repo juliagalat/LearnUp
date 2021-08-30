@@ -1,0 +1,14 @@
+.category {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+
+  @include e(pop) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  @include e(hot) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
